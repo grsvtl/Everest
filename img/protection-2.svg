@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="protection-2" transform="translate(0.5 0.5)">
+    <circle id="Oval" cx="26.5" cy="26.5" r="26.5" fill="#fff" stroke="#e37351" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Line_4" data-name="Line 4" d="M.5.5V18.7" transform="translate(19 10)" fill="none" stroke="#cfc6c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Line_4_Copy" data-name="Line 4 Copy" d="M.5.5V12.7" transform="translate(26 16)" fill="none" stroke="#e37351" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="Line_4_Copy_2" data-name="Line 4 Copy 2" d="M.5.848V7.7" transform="translate(33 21)" fill="none" stroke="#e37351" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    <text id="защита" transform="translate(8 31)" fill="#555" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="2.106" y="11">защита</tspan></text>
+  </g>
+</svg>

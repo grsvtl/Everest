@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="71">
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-374" y="-1976" width="1440" height="5513" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<path fill="none" stroke="rgb(214,214,214)" stroke-width="1" stroke-linecap="square" stroke-miterlimit="4" transform="translate(41 0)" d="M0.5 0.408537L0.5 66.301"/>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect x="-374" y="-1976" width="1440" height="5513" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<path fill="none" stroke="rgb(214,214,214)" stroke-width="1" stroke-linecap="square" stroke-miterlimit="4" transform="translate(2 65)" d="M0 1.14453L39.5 1.14453"/>
+	</g>
+	<defs>
+		<clipPath id="clip_2">
+			<rect x="-374" y="-1976" width="1440" height="5513" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_2)">
+		<path fill="none" stroke="rgb(214,214,214)" stroke-width="1" stroke-linecap="square" stroke-miterlimit="4" transform="matrix(-1 0 0 1 54 0)" d="M0.5 0.408537L0.5 66.301"/>
+	</g>
+	<defs>
+		<clipPath id="clip_3">
+			<rect x="-374" y="-1976" width="1440" height="5513" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_3)">
+		<path fill="none" stroke="rgb(214,214,214)" stroke-width="1" stroke-linecap="square" stroke-miterlimit="4" transform="matrix(-1 0 0 1 93 65)" d="M0 1.14453L39.5 1.14453"/>
+	</g>
+	<defs>
+		<clipPath id="clip_4">
+			<rect x="-374" y="-1976" width="1440" height="5513" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_4)">
+		<path fill="rgb(227,227,227)" stroke="none" transform="matrix(-4.37114e-08 -1 1 -4.37114e-08 0 70.5)" d="M4.5 0L9 9L0 9L4.5 0Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_5">
+			<rect x="-374" y="-1976" width="1440" height="5513" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_5)">
+		<path fill="rgb(227,227,227)" stroke="none" transform="matrix(1.19249e-08 1 -1 1.19249e-08 101.334 61.5013)" d="M4.5 0L9 9L0 9L4.5 0Z"/>
+	</g>
+
+</svg>

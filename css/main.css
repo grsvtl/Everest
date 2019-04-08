@@ -1,0 +1,520 @@
+.about-company-page__first-block {
+    /*display: flex;*/
+}
+
+.about-company-page__first-block-text {
+    margin-right: 36px;
+    display: block;
+}
+
+.about-company-page__first-block-img {
+    min-width: 264px;
+    float: right;
+    margin-left: 36px;
+}
+
+ul.about-company-page__constructionsList {
+    display: flex;
+    max-width: 80%;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: 36px;
+}
+
+.about-company-page__constructionsList li {
+    width: 50%;
+}
+
+.about-company-page__first-block-text-h2 {
+    margin-top: 66px;
+}
+
+.about-company-page__qualityList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.about-company-page__qualityList-block {
+    width: 45%;
+}
+
+ul.about-company-page__qualityList-block li {
+    position: relative;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+
+ul.about-company-page__qualityList-block li:before {
+    display: none;
+}
+
+.about-company-page__qualityList-icon {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    min-width: 65px;
+    height: 65px;
+    margin-right: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about-company-page__qualityList-personalApproach:before {
+    content: '';
+    background: #fffaf8 url('img/manager.png') no-repeat center;
+    background-size: 100% auto;
+    width: 26px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-flexible:before {
+    content: '';
+    background: #fffaf8 url('img/hand.png') no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-gager:before {
+    content: '';
+    background: #fffaf8 url('img/delivery-truck.png') no-repeat center;
+    background-size: 100% auto;
+    width: 41px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-services:before {
+    content: '';
+    background: #fffaf8 url('img/shopping.png') no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-projects:before {
+    content: '';
+    background: #fffaf8 url('img/idea.png') no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-warranty:before {
+    content: '';
+    background: #fffaf8 url('img/favourite.png') no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-consultation:before {
+    content: '';
+    background: #fffaf8 url('img/speech-bubble.png') no-repeat center;
+    background-size: 100% auto;
+    width: 33px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__requisites {
+    background: url("img/wisdom-finance.jpg") no-repeat center;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.about-company-page__requisites-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.about-company-page__requisites-block p {
+    margin-bottom: 15px;
+}
+
+.about-company-page__requisites-circle {
+    background: url('img/circle-bottom.png') no-repeat center;
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+h3.about-company-page__requisites__h3 {
+    margin-bottom: 60px;
+    margin-top: 70px;
+    font-size: 20px;
+    color: #000000;
+}
+
+@media (max-width: 850px) {
+    .about-company-page__requisites-block {
+        width: 100%;
+    }
+
+    .about-company-page__requisites {
+        flex-direction: column;
+        background: url('img/wisdom-finance.jpg') no-repeat center;
+        background-size: 100% 100%;
+    }
+
+    .about-company-page__qualityList {
+        flex-direction: column;
+    }
+
+    ul.about-company-page__qualityList-block {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .about-company-page__constructionsList li {
+        width: 100%;
+    }
+
+    ul.about-company-page__constructionsList {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 555px) {
+    .about-company-page__first-block-img {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    ul.about-company-page__qualityList-block li {
+        padding-left: 0;
+    }
+
+    .about-company-page__requisites {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*warranty-page*/
+
+.warranty-page__img {
+    margin-left: 35px;
+    float: right
+}
+
+h2.warranty-page__h2 {
+    margin-top: 70px;
+    margin-bottom: 29px;
+}
+
+ul.warranty-page__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 66px;
+}
+
+ul.warranty-page__list li {
+    margin-bottom: 67px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+ul.warranty-page__list li:before {
+    display: none;
+}
+
+.about-company-page__qualityList-cleaning:before {
+    content: '';
+    background: #fffaf8 url('img/paint-brushes.png') no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-polishing:before {
+    content: '';
+    background: #fffaf8 url('img/egg.png') no-repeat center;
+    background-size: 100% auto;
+    width: 22px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-scratching:before {
+    content: '';
+    background: #fffaf8 url('img/cleaning.png') no-repeat center;
+    background-size: 100% auto;
+    width: 28px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+@media (max-width: 991.98px) {
+    .warranty-page__list {
+        flex-direction: column;
+    }
+
+    ul.warranty-page__list li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .warranty-page__img {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    ul.warranty-page__list li {
+        padding-left: 0;
+    }
+}
+
+/**/
+
+.payment-page {
+    margin-top: 70px;
+}
+
+.payment-page__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.payment-page__block {
+
+}
+
+.payment-page__block-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 7px solid #ffffff;
+    background-color: #fff1ed;
+}
+
+/*.payment-page__block-img img:first-child {*/
+/*position: absolute;*/
+/*z-index: 1;*/
+/*}*/
+
+/*.payment-page__block-img img:nth-child(2) {*/
+/*position: relative;*/
+/*z-index: 2;*/
+/*}*/
+.payment-page__block-mkad-first {
+    background: url("img/mkad.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+}
+
+.payment-page__block-mkad-second {
+    background: url("img/mkad_copy.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    z-index: 2;
+}
+
+.payment-page__block-zaMkad-first {
+    background: url("img/mkad_copy_3.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+}
+
+.payment-page__block-zaMkad-second {
+    background: url("img/mkad_copy_2.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    z-index: 2;
+}
+
+.payment-page__block-bigOrder-first {
+    background: url("img/no-border.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+}
+
+.payment-page__block-bigOrder-second {
+    background: url("img/border.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    z-index: 2;
+}
+
+.payment-page__block-regions-first {
+    background: url("img/regions-img.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+}
+
+.payment-page__block-regions-second {
+    background: url("img/regions-mask.png") no-repeat center;
+    background-size: 100% auto;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    z-index: 2;
+}
+
+.payment-page__block-price {
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: -30px;
+    padding: 10px 25px 8px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 3;
+}
+
+.payment-page__block-mkadPrice {
+    box-shadow: 0 4px 8px #d2542e;
+    background-color: #e37351;
+}
+
+.payment-page__block-bigOrderPrice {
+    box-shadow: 0 4px 8px #79931a;
+    background-color: #9fb11c;
+}
+
+h2.payment-page__h2 {
+    margin-top: 68px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+ul.payment-page__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.payment-page__list li {
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+ul.payment-page__list li:before {
+    display: none;
+}
+
+.about-company-page__qualityList-cash:before {
+    content: '';
+    background: #fffaf8 url("img/wallet.png") no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.about-company-page__qualityList-cashless:before {
+    content: '';
+    background: #fffaf8 url("img/credit-card.png") no-repeat center;
+    background-size: 100% auto;
+    width: 32px;
+    height: 30px;
+    display: block;
+    position: absolute;
+}
+
+.payment-page__block-caption {
+    color: #2e2e2e;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+
+    .payment-page {
+        margin-top: 10px;
+    }
+
+    .payment-page__block {
+        margin-top: 60px;
+    }
+
+    .page-content p {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 793px) {
+    .payment-page__container {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 530px) {
+    ul.payment-page__list li {
+        margin-right: 0;
+        padding-left: 0;
+    }
+}

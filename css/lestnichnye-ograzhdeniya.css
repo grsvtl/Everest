@@ -1,0 +1,515 @@
+.seo-box__p {
+    text-align: center;
+    max-width: 745px;
+    margin: 37px auto 56px auto;
+    color: #707070;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.seo-box__list-services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.seo-box__list-services li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 18%;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.seo-box__li-block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 60px;
+    height: 60px;
+    margin-bottom: 23px;
+}
+
+.icon-price-meter {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/icon-price-meter.svg") no-repeat center;
+    width: 59px;
+    height: 50px;
+}
+
+.icon-montage-day {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/icon-montage-day.svg") no-repeat center;
+    width: 52px;
+    height: 53px;
+}
+
+.icon-certificate {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/icon-certificate.svg") no-repeat center;
+    width: 58px;
+    height: 49px;
+}
+
+.icon-gost {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/icon-gost.svg") no-repeat center;
+    width: 56px;
+    height: 53px;
+}
+
+.icon-warranty {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/icon-warranty.svg") no-repeat center;
+    width: 48px;
+    height: 59px;
+}
+
+.seo-box__list-services li span {
+    color: #E37351;
+    font-weight: bold;
+}
+
+.seo-box.text ul li:before {
+    display: none;
+}
+
+.seo-box .seo-box__list-services li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text .h4-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #555555;
+    display: block;
+    margin-bottom: 0;
+}
+
+.table-wrap__icon-box {
+    display: flex;
+    max-width: 80px;
+    height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px auto 25px auto;
+}
+
+.table-wrap__icon-stainless-steel {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/stainless-steel.svg") no-repeat center;
+    width: 59px;
+    height: 60px;
+}
+
+.table-wrap__icon-diameter {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/diameter.svg") no-repeat center;
+    width: 75px;
+    height: 63px;
+}
+
+.table-wrap__icon-glass {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/glass.svg") no-repeat center;
+    width: 59px;
+    height: 60px;
+}
+
+.railing-characteristics-table {
+    margin-top: 20px;
+}
+
+.railing-characteristics-table li {
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px !important;
+}
+
+.railing-characteristics-table li p {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.railing-characteristics-table__icon {
+    background: #ffffff;
+    min-width: 6px;
+    height: 6px;
+    left: -18px;
+    position: relative;
+    border-radius: 50%;
+    align-self: flex-start;
+    top: 7px;
+}
+
+.railing-characteristics-table ul {
+    min-height: 100px;
+    margin-top: 20px;
+}
+
+.seo-box .seo-box__h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.seo-box .seo-box__h2-first {
+    margin-top: 57px;
+    margin-bottom: 54px;
+}
+
+.seo-box__section-order-reason {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seo-box__block-order-reason {
+    max-width: 50%;
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.seo-box__order-reason-img-block {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 25px;
+}
+
+.seo-box__order-reason-img-warranty {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/guarantee.svg") no-repeat center;
+    width: 46px;
+    height: 52px;
+}
+
+.seo-box__order-reason-img-cleaning {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/clean.svg") no-repeat center;
+    width: 59px;
+    height: 58px;
+}
+
+.seo-box__order-reason-img-price {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/tag (1).svg") no-repeat center;
+    width: 56px;
+    height: 56px;
+}
+
+.seo-box__order-reason-img-gager {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/rule.svg") no-repeat center;
+    width: 36px;
+    height: 48px;
+}
+
+.seo-box__order-reason-img-responsiveness {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/speed (1).svg") no-repeat center;
+    width: 54px;
+    height: 54px;
+}
+
+.seo-box__block-order-reason span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.seo-box__block-order-reason p {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+
+.cross-barriers-section p {
+    color: #555555;
+    line-height: 22px;
+}
+
+.cross-barriers-section .h4-title {
+    margin-bottom: 11px;
+}
+
+.cross-barriers-section__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.cross-barriers-section__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 31%;
+}
+
+.cross-barriers-section__block-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cross-barriers-section__block-img span {
+    font-weight: bold;
+    color: #E37351;
+    margin-top: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.fencing-glass-section {
+    margin-top: 40px;
+}
+
+.fencing-glass-section__block-img {
+    margin-left: 40px;
+    margin-right: 60px;
+    min-width: 117px;
+    float: left;
+}
+
+.fencing-glass-section__block-text p {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+
+.all-glass-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.all-glass-container .h4-title {
+    margin-bottom: 22px;
+}
+
+.railing-characteristics-table__first-block li {
+    padding-left: 32% !important;
+}
+
+.railing-characteristics-table__second-block li {
+    padding-left: 15% !important;
+}
+
+.railing-characteristics-table__three-block li {
+    padding-left: 28px !important;
+}
+
+.all-glass-container__text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.all-glass-container__types-title {
+    font-weight: bold;
+    color: #555555;
+    margin-top: 30px;
+    display: block;
+}
+
+.all-glass-container ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:  wrap;
+}
+
+.all-glass-container ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+    width: 33%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.all-glass-container__icon-profile,
+.all-glass-container__icon-points,
+.all-glass-container__icon-racks {
+    min-width: 70px;
+    display: flex;
+    height: 36px;
+    margin-right: 27px;
+}
+
+.all-glass-container__icon-profile i {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/on-profile.svg") no-repeat center;
+    width: 69px;
+    height: 36px;
+}
+
+.all-glass-container__icon-points i {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/on-points.svg") no-repeat center;
+    width: 69px;
+    height: 36px;
+}
+
+.all-glass-container__icon-racks i {
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/on-mini-racks.svg") no-repeat center;
+    width: 69px;
+    height: 36px;
+}
+
+.handrail-cables-img-block {
+    margin-left: 40px;
+    margin-right: 60px;
+    min-width: 117px;
+    float: left;
+}
+
+.handrail-cables-section p {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+
+.handrail-cables-section {
+    margin-bottom: 75px;
+    margin-top: 22px;
+}
+
+.railing-features-section {
+    position: relative;
+    background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/Mask Group 3.png") no-repeat center;
+    background-size: cover;
+}
+
+.railing-features-section__content {
+    padding-top: 46px;
+    padding-bottom: 66px;
+}
+
+.railing-features-section__content p {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+
+.railing-features-section__content .h4-title {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .railing-characteristics-table ul {
+        min-height: 120px;
+    }
+}
+
+@media (max-width: 855px) {
+    .seo-box__list-services li {
+        max-width: 33%;
+    }
+
+    .seo-box__list-services {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .railing-characteristics-table ul {
+        min-height: 162px;
+    }
+
+    .railing-features-section {
+        position: relative;
+        background: url("/wp-content/uploads/2018/lestnichnye-ograzhdeniya/Mask Group 3.png") no-repeat center;
+        background-size: cover;
+        margin-top: -90px;
+    }
+
+    .railing-characteristics-table tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .railing-characteristics-table td {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .cross-barriers-section__container {
+        flex-wrap: wrap;
+    }
+
+    .seo-box__block-order-reason {
+        max-width: 100%;
+    }
+
+    .cross-barriers-section__block {
+        max-width: 48%;
+    }
+
+    .cross-barriers-section__block:last-child {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 660px) {
+    .all-glass-container ul li {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .seo-box .seo-box__h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 565px) {
+    .seo-box__list-services li {
+        max-width: 50%;
+    }
+
+    .text table tr:first-child td {
+        width: 100% !important;
+    }
+
+    .railing-characteristics-table ul {
+        min-height: auto;
+    }
+
+    .cross-barriers-section__block {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .seo-box__list-services li {
+        max-width: 100%;
+    }
+
+    .seo-box__block-order-reason {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .fencing-glass-section__block-img,
+    .handrail-cables-img-block {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .seo-box .seo-box__h2 {
+        font-size: 22px;
+    }
+
+    .text .h4-title {
+        font-size: 20px;
+    }
+
+}
