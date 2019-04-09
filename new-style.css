@@ -14,7 +14,8 @@
 .first-section {
     width: 100%;
     position: relative;
-    background: #E9E9E7;
+    background: rgba(194, 192, 192, .45);
+    /*background: #E9E9E7;*/
     height: 527px;
 }
 
